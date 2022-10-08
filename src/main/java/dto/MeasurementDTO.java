@@ -5,6 +5,9 @@ public class MeasurementDTO {
     private Boolean raining;
     private SensorDTO sensor;
 
+    public MeasurementDTO() {
+    }
+
     public Double getValue() {
         return value;
     }
